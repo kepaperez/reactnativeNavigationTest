@@ -10,6 +10,10 @@
 ##### Basic
 ```
 npm install @react-navigation/native
+npm install @react-navigation/native-stack
+```
+```
+npm install react-native-screens react-native-safe-area-context
 ```
 
 ##### Basic
