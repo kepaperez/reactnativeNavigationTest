@@ -11,9 +11,36 @@
 ```
 npm install @react-navigation/native
 npm install @react-navigation/native-stack
-```
-```
 npm install react-native-screens react-native-safe-area-context
 ```
 
-##### Basic
+##### Tab Navigation
+```
+npm install @react-navigation/bottom-tabs
+```
+
+##### Drawer Navigation
+```
+pm install @react-navigation/drawer
+npm install react-native-gesture-handler react-native-reanimated
+```
+Add this on top  index.js or App.js
+```
+import 'react-native-gesture-handler';
+```
+Add Reanimated's Babel plugin to your babel.config.js:
+```
+ module.exports = {
+    presets: [
+      ...
+    ],
+    plugins: [
+      ...
+      'react-native-reanimated/plugin',
+    ],
+  };
+```
+and run 
+```
+npm start -- --reset-cache
+```
