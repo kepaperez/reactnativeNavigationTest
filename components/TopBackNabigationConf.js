@@ -1,14 +1,8 @@
 import { useNavigation } from "@react-navigation/native";
 import React, { useState } from "react";
 import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
-import { TouchableHighlight } from "react-native-gesture-handler";
 import BackIcon from "../Icons/BackIcon";
 import MenuIcon from "../Icons/MenuIcon";
-
-
-
-
-
 
 
 const TopBackNavigationConf = ({ count }) => {

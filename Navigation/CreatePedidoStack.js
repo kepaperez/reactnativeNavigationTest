@@ -1,17 +1,12 @@
 
 import React, { useState } from "react";
-import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-
-import { createDrawerNavigator } from '@react-navigation/drawer';
-import Home from "../pages/Home";
 import Configuration from "../pages/Configuration";
 import TopBackNavigation from "../components/TopBackNabigation";
-import DrawNavigation from "./DrawNavigation";
-import TabNavigation from "./TabNavigation";
+
 import SubirArchivos from "../pages/SubirArchivos";
 import TopBackNavigationConf from "../components/TopBackNabigationConf";
 

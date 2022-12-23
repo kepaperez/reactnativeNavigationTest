@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { NavigationContainer } from '@react-navigation/native';
+
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import StackNavigation from "./StackNavigation";
 import TopNavigationHome from "../components/TopNavigationHome";
-import CrearPedido from "../pages/Configuration";
+import Home from "../pages/Home";
 const Tab = createBottomTabNavigator();
-import TopBackNavigation from "../components/TopBackNabigation";
+import Info from "../pages/Info";
+import Carrito from "../pages/Carrito";
 
 export default TabNavigation = ({ navigation }) => {
     return (
