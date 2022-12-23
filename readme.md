@@ -8,5 +8,5 @@
 
 #### Installation
 ##### Basic
-``` ##### Basic```
+  npm install @react-navigation/native
 ##### Basic
